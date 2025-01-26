@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>契約者マイページ｜Bonobo</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
+<meta name="description" content="">
+<link rel="stylesheet" href="css/style.css">
+<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+
+<body>
+
+<div id="container">
+
+<header>
+
+<h1 id="logo"><a href="index.html"><img src="images/logo_bonobo.png" alt=""></a></h1>
+
+<div id="menubar_hdr">
+<span></span><span></span><span></span>
+</div>
+<!--/#menubar_hdr-->
+
+</header>
+
+<div id="menubar">
+<div id="navigation"></div>
+</div>
+ <!--/#menubar-->
+ 
+<main>
+
+<section>
+<h2>弁護士紹介サービス</h2>
+ <form class="form1">
+    <span style="font-weight: bold;">
+     <div>■ 相談したい法的トラブルを選択してください。</div>
+    </span>
+   <table class="ta1">
+     <caption>該当するトラブル</caption>
+    <tr>
+       <td>
+       <div class="radio1">
+        <input type="radio" id="change01" name="course" onchange="customCalculate()" value="change01">
+        <label for="change01" style="width: 300px; margin: 10px;">取引先とのトラブル</label>
+        <input type="radio" id="change02" name="course" onchange="customCalculate()" value="change02">
+        <label for="change02" style="width: 300px; margin: 10px;">債権等回収トラブル</label>
+        <input type="radio" id="change03" name="course" onchange="customCalculate()" value="change03">
+        <label for="change03" style="width: 300px; margin: 10px;">お客さまとのトラブル</label>
+        <input type="radio" id="change04" name="course" onchange="customCalculate()" value="change04">
+        <label for="change04" style="width: 300px; margin: 10px;">従業員とのトラブル</label>
+        <input type="radio" id="change05" name="course" onchange="customCalculate()" value="change05">
+        <label for="change05" style="width: 300px; margin: 10px;">契約に関するトラブル</label>
+        <input type="radio" id="change06" name="course" onchange="customCalculate()" value="change06">
+        <label for="change06" style="width: 300px; margin: 10px;">労働や勤務に関するトラブル</label>
+        <input type="radio" id="change07" name="course" onchange="customCalculate()" value="change07">
+        <label for="change07" style="width: 300px; margin: 10px;">不動産トラブル</label>
+        <input type="radio" id="change08" name="course" onchange="customCalculate()" value="change08">
+        <label for="change08" style="width: 300px; margin: 10px;">知的財産権侵害等のトラブル</label>
+        <input type="radio" id="change09" name="course" onchange="customCalculate()" value="change09">
+        <label for="change09" style="width: 300px; margin: 10px;">偶発事故（交通事故等）のトラブル</label>
+        <input type="radio" id="change10" name="course" onchange="customCalculate()" value="change10">
+        <label for="change10" style="width: 300px; margin: 10px;">その他のご相談</label>
+       </div>
+       </td>
+    </tr>
+   </table>
+
+<div class="open01">
+<form class="form1">
+<table class="ta1">     
+    <caption>取引先とのトラブル</caption>
+    <tbody>
+    <tr>
+     <th>法人・屋号</th>
+     <td><input type="text" id="" size="30" class="ws" style="width: 80%;"></td>
+    </tr>
+    <tr>
+     <th>相談内容</th>
+     <td><textarea cols="30" rows="10" class="wl" style="height: 150px; width: 80%;"></textarea></td>
+    </tr>
+   </tbody>
+</table>
+<div class="btn">
+<a href="">送信</a>
+</div>
+</form>
+</div>
+
+<div class="open02">
+<form class="form1">
+<table class="ta1">     
+    <caption>債権等回収トラブル</caption>
+    <tbody>
+    <tr>
+     <th>法人・屋号</th>
+     <td><input type="text" id="" size="30" class="ws" style="width: 80%;"></td>
+    </tr>
+    <tr>
+     <th>相談内容</th>
+     <td><textarea cols="30" rows="10" class="wl" style="height: 150px; width: 80%;"></textarea></td>
+    </tr>
+   </tbody>
+</table>
+<div class="btn">
+<a href="">送信</a>
+</div>
+</form>
+</div>
+
+<div class="open03">
+<form class="form1">
+<table class="ta1">     
+    <caption>お客さまとのトラブル</caption>
+    <tbody>
+    <tr>
+     <th>法人・屋号</th>
+     <td><input type="text" id="" size="30" class="ws" style="width: 80%;"></td>
+    </tr>
+    <tr>
+     <th>相談内容</th>
+     <td><textarea cols="30" rows="10" class="wl" style="height: 150px; width: 80%;"></textarea></td>
+    </tr>
+   </tbody>
+</table>
+<div class="btn">
+<a href="">送信</a>
+</div>
+</form>
+</div>
+  
+<div class="open04">
+<form class="form1">
+<table class="ta1">     
+    <caption>従業員とのトラブル</caption>
+    <tbody>
+    <tr>
+     <th>法人・屋号</th>
+     <td><input type="text" id="" size="30" class="ws" style="width: 80%;"></td>
+    </tr>
+    <tr>
+     <th>相談内容</th>
+     <td><textarea cols="30" rows="10" class="wl" style="height: 150px; width: 80%;"></textarea></td>
+    </tr>
+   </tbody>
+</table>
+<div class="btn">
+<a href="">送信</a>
+</div>
+</form>
+</div>
+
+<div class="open05">
+<form class="form1">
+<table class="ta1">     
+    <caption>契約に関するトラブル</caption>
+    <tbody>
+    <tr>
+     <th>法人・屋号</th>
+     <td><input type="text" id="" size="30" class="ws" style="width: 80%;"></td>
+    </tr>
+    <tr>
+     <th>相談内容</th>
+     <td><textarea cols="30" rows="10" class="wl" style="height: 150px; width: 80%;"></textarea></td>
+    </tr>
+   </tbody>
+</table>
+<div class="btn">
+<a href="">送信</a>
+</div>
+</form>
+</div>
+
+<div class="open06">
+<form class="form1">
+<table class="ta1">     
+    <caption>労働や勤務に関するトラブル</caption>
+    <tbody>
+    <tr>
+     <th>法人・屋号</th>
+     <td><input type="text" id="" size="30" class="ws" style="width: 80%;"></td>
+    </tr>
+    <tr>
+     <th>相談内容</th>
+     <td><textarea cols="30" rows="10" class="wl" style="height: 150px; width: 80%;"></textarea></td>
+    </tr>
+   </tbody>
+</table>
+<div class="btn">
+<a href="">送信</a>
+</div>
+</form>
+</div>
+
+<div class="open07">
+<form class="form1">
+<table class="ta1">     
+    <caption>不動産トラブル</caption>
+    <tbody>
+    <tr>
+     <th>法人・屋号</th>
+     <td><input type="text" id="" size="30" class="ws" style="width: 80%;"></td>
+    </tr>
+    <tr>
+     <th>相談内容</th>
+     <td><textarea cols="30" rows="10" class="wl" style="height: 150px; width: 80%;"></textarea></td>
+    </tr>
+   </tbody>
+</table>
+<div class="btn">
+<a href="">送信</a>
+</div>
+</form>
+</div>
+
+<div class="open08">
+<form class="form1">
+<table class="ta1">     
+    <caption>知的財産権侵害等のトラブル</caption>
+    <tbody>
+    <tr>
+     <th>法人・屋号</th>
+     <td><input type="text" id="" size="30" class="ws" style="width: 80%;"></td>
+    </tr>
+    <tr>
+     <th>相談内容</th>
+     <td><textarea cols="30" rows="10" class="wl" style="height: 150px; width: 80%;"></textarea></td>
+    </tr>
+   </tbody>
+</table>
+<div class="btn">
+<a href="">送信</a>
+</div>
+</form>
+</div>
+
+<div class="open09">
+<form class="form1">
+<table class="ta1">     
+    <caption>偶発事故（交通事故等）のトラブル</caption>
+    <tbody>
+    <tr>
+     <th>法人・屋号</th>
+     <td><input type="text" id="" size="30" class="ws" style="width: 80%;"></td>
+    </tr>
+    <tr>
+     <th>相談内容</th>
+     <td><textarea cols="30" rows="10" class="wl" style="height: 150px; width: 80%;"></textarea></td>
+    </tr>
+   </tbody>
+</table>
+<div class="btn">
+<a href="">送信</a>
+</div>
+</form>
+</div>
+
+<div class="open10">
+<form class="form1">
+<table class="ta1">     
+    <caption>その他のご相談</caption>
+    <tbody>
+    <tr>
+     <th>法人・屋号</th>
+     <td><input type="text" id="" size="30" class="ws" style="width: 80%;"></td>
+    </tr>
+    <tr>
+     <th>相談内容</th>
+     <td><textarea cols="30" rows="10" class="wl" style="height: 150px; width: 80%;"></textarea></td>
+    </tr>
+   </tbody>
+</table>
+<div class="btn">
+<a href="">送信</a>
+</div>
+</form>
+</div>
+
+</form>
+</section>
+
+ 
+</main>
+  
+<footer>
+<small>Copyright 2025 ASHIRO Small Amount and Short Term Insurance Co., Ltd.</small>
+<span class="pr"><a href="https://template-party.com/" target="_blank">《Web Design:Template-Party》</a></span>
+</footer>
+
+</div>
+<!--/#container-->
+
+<!--jQueryの読み込み-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!--このテンプレート専用のスクリプト-->
+<script src="js/main.js"></script>
+
+<!--ページの上部へ戻るボタン-->
+<div class="pagetop"><a href="#"><i class="fas fa-angle-double-up"></i></a></div>
+
+ 
+</body>
+</html>
